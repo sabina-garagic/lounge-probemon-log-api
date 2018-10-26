@@ -2,7 +2,7 @@ const moment = require('moment');
 const fs = require('fs');
 const readline = require('readline');
 
-const pathToLogFile = '/python/probemon/probemon.log';
+const pathToLogFile = '/home/pi/python/probemon/probemon.log';
 
 class LogReaderService {
   fetchLast5MinutesOfLog() {
