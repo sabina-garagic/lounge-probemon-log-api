@@ -1,0 +1,14 @@
+{
+  "name": "probemon-log-api",
+  "version": "1.0.0",
+  "main": "sources/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node sources/index.js"
+  },
+  "dependencies": {
+    "koa": "^2.6.1",
+    "koa-router": "^7.4.0",
+    "moment": "^2.22.2"
+  }
+}
