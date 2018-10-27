@@ -9,8 +9,8 @@ const router = new Router();
 logModule.setupRoutes(router);
 
 app
-  .use(router.routes())
   .use(cors())
+  .use(router.routes())
   .use(router.allowedMethods());
 
 app.listen(8080);
