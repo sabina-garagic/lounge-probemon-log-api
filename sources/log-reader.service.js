@@ -11,7 +11,6 @@ class LogReaderService {
 
       var rd = readline.createInterface({
         input: fs.createReadStream(pathToLogFile),
-        output: process.stdout,
         console: false
       });
 
