@@ -1,5 +1,6 @@
 const Koa = require('koa');
 const Router = require('koa-router');
+const cors = require('koa-cors');
 const logModule = require('./log.module');
 
 const app = new Koa();
@@ -9,6 +10,7 @@ logModule.setupRoutes(router);
 
 app
   .use(router.routes())
+  .use(cors())
   .use(router.allowedMethods());
 
 app.listen(8080);
