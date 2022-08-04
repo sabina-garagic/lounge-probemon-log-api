@@ -7,7 +7,7 @@
     "start": "node sources/index.js"
   },
   "dependencies": {
-    "koa": "^2.6.1",
+    "koa": "^2.13.4",
     "koa-cors": "^0.0.16",
     "koa-router": "^7.4.0",
     "moment": "^2.22.2"
