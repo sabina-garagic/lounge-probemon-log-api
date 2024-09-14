@@ -9,7 +9,7 @@
   "dependencies": {
     "koa": "^2.6.1",
     "koa-cors": "^0.0.16",
-    "koa-router": "^7.4.0",
+    "koa-router": "^13.0.1",
     "moment": "^2.22.2"
   }
 }
